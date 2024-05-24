@@ -6,7 +6,7 @@ from nbtlib import load
 
 def delete_player(map_folder_path):
     """
-        Opens the level.dat file and deletes the 
+        Opens the level.dat file and deletes the player info
     """
     try:
         file_path = map_folder_path + "\\level.dat"
